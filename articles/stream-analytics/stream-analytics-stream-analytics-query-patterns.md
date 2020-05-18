@@ -205,8 +205,8 @@ Use the **LIKE** statement to check the **License_plate** field value. It should
 SELECT
 	Make
 	CASE
-		WHEN Make = "Make1" THEN "A"
-		ELSE "B"
+		WHEN Make = 'Make1' THEN 'A'
+		ELSE 'B'
 	END AS Dispatch_to_lane,
 	System.TimeStamp() AS Time
 FROM
