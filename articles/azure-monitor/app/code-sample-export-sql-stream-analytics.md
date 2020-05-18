@@ -87,15 +87,15 @@ Create a new query, and execute the following T-SQL:
 ```SQL
 
 CREATE TABLE [dbo].[PageViewsTable](
-    [pageName] [nvarchar](max) NOT NULL,
-    [viewCount] [int] NOT NULL,
+    [pageName] [nvarchar](max) NULL,
+    [viewCount] [int] NULL,
     [url] [nvarchar](max) NULL,
     [urlDataPort] [int] NULL,
     [urlDataprotocol] [nvarchar](50) NULL,
     [urlDataHost] [nvarchar](50) NULL,
     [urlDataBase] [nvarchar](50) NULL,
     [urlDataHashTag] [nvarchar](max) NULL,
-    [eventTime] [datetime] NOT NULL,
+    [eventTime] [datetime] NULL,
     [isSynthetic] [nvarchar](50) NULL,
     [deviceId] [nvarchar](50) NULL,
     [deviceType] [nvarchar](50) NULL,
