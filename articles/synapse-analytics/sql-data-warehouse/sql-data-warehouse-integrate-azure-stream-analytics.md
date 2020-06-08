@@ -27,6 +27,7 @@ In this article, you will learn how to use your data warehouse as an output sink
     2. Configure and start event generator application
     3. Provision a Stream Analytics job
     4. Specify job input and query
+    5. [Specify a Storage Account](https://docs.microsoft.com/en-us/azure/stream-analytics/sql-reference-data#specify-storage-account-in-job-config)
 * Azure Synapse SQL pool data warehouse - To create a new data warehouse, follow the steps in the [Quickstart to create a new data warehouse](create-data-warehouse-portal.md).
 
 ## Specify streaming output to point to your data warehouse
