@@ -49,7 +49,7 @@ When you choose **Managed Identity**, to set up the connection, you must first g
 
 When authentication method selected is **Account Key**, you need to get your access key and store in the key vault:
 
-1. Navigate to your ADLS Gne2 storage account
+1. Navigate to your ADLS Gen2 storage account
 1. Select **Settings > Access keys**
 1. Copy your *key* and save it somewhere for the next steps
 1. Navigate to your key vault
@@ -85,7 +85,7 @@ It is required to get the Service Principal's application ID and secret:
 1. If your key vault is not connected to Purview yet, you will need to [create a new key vault connection](manage-credentials.md#create-azure-key-vaults-connections-in-your-azure-purview-account)
 1. Finally, [create a new credential](manage-credentials.md#create-a-new-credential) using the Service Principal to setup your scan
 
-##### Granting the Service Principal access to your ADLS gen2 account
+##### Granting the Service Principal access to your ADLS Gen2 account
 
 1. Navigate to your storage account.
 1. Select **Access Control (IAM)** from the left navigation menu. 
